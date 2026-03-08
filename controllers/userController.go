@@ -10,6 +10,12 @@ func GetUser() gin.HandlerFunc {
 	}
 }
 
+func GetUsers() gin.HandlerFunc {
+	return func(c *gin.Context) {
+
+	}
+}
+
 func SignUp() gin.HandlerFunc {
 	return func(c *gin.Context) {
 
